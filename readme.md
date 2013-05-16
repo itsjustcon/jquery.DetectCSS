@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-Just download [jquery.DetectCSS.js]() or [jquery.DetectCSS.min.js]() and include it after jQuery:
+Just download [jquery.DetectCSS.js](jquery.DetectCSS.js) or [jquery.DetectCSS.min.js](jquery.DetectCSS.min.js) and include it after jQuery:
 
 ``` html
 <script src='jquery.js'></script>
@@ -13,7 +13,7 @@ Just download [jquery.DetectCSS.js]() or [jquery.DetectCSS.min.js]() and include
 
 ## Usage
 
-You can see a list of tested queries in the [tested-queries.json]() file.
+You can see a list of tested queries in the [tested-queries.json](tested-queries.json) file.
 
 DetectCSS takes either a CSS property (string) or an array of CSS properties (array of strings) and returns true or false based on whether the queried element(s) support the CSS property in question.
 
