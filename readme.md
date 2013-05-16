@@ -1,21 +1,23 @@
 # jquery.DetectCSS
 
-***
-
 ##### A simple, light-weight jQuery plugin for detecting CSS features on DOM elements. Use as a lighter alternative to (or in addition to) the fantastic [Modernizr](http://github.com/Modernizr/Modernizr).
 
 ## Getting Started
 
-Just include this script after jQuery:
+Just download `jquery.DetectCSS.js` or `jquery.DetectCSS.min.js` and include it after jQuery:
 
 ``` html
 <script src='jquery.js'></script>
-<script src='jquery.DetectCSS.js'></script>
+<script src='jquery.DetectCSS.min.js'></script>
 ```
 
 ## Usage
 
-Test for transform (+prefixes) on #myElm:
+You can see a list of tested queries in the [tested-queries.json][] file.
+
+DetectCSS takes either a CSS property (string) or an array of CSS properties (array of strings) and returns true or false based on whether the queried element(s) support the CSS property in question.
+
+For example, let's test for CSS Transform (+prefixes) on #myElm:
 
 ``` javascript
 if ( $('#myElm').DetectCSS('transform') ) {
